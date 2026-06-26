@@ -1,0 +1,13 @@
+# 1. Force the correct JSON header for Android systems
+[[headers]]
+  for = "/.well-known/assetlinks.json"
+  [headers.values]
+    Content-Type = "application/json"
+    Access-Control-Allow-Origin = "*"
+
+# 2. Prevent your global SPA fallback rules from rewriting this route
+[[redirects]]
+  from = "/.well-known/assetlinks.json"
+  to = "/.well-known/assetlinks.json"
+  status = 200
+  force = true

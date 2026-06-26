@@ -7,18 +7,18 @@
     "target": {
       "namespace": "android_app",
       "package_name": "com.lol.hearth",
-      "sha256_cert_fingerprints": ["5C:A1:9A:BC:7C:34:92:5E:92:60:33:E8:69:9E:78:36:C6:3A:BF:59:D8:78:D2:F6:C4:2B:CD:53:BF:7F:01:F9"]
+      "sha256_cert_fingerprints": [
+        "5C:A1:9A:BC:7C:34:92:5E:92:60:33:E8:69:9E:78:36:C6:3A:BF:59:D8:78:D2:F6:C4:2B:CD:53:BF:7F:01:F9"
+      ]
     }
   },
   {
     "relation": [
-      "delegate_permission/common.handle_all_urls",
       "delegate_permission/common.get_login_creds"
     ],
     "target": {
-      "namespace": "android_app",
-      "package_name": "com.lol.hearth",
-      "sha256_cert_fingerprints": ["5C:A1:9A:BC:7C:34:92:5E:92:60:33:E8:69:9E:78:36:C6:3A:BF:59:D8:78:D2:F6:C4:2B:CD:53:BF:7F:01:F9"]
+      "namespace": "web",
+      "site": "https://netlify.app"
     }
   }
 ]
